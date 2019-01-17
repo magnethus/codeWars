@@ -48,7 +48,20 @@ friends = ['Broken', 'Master', 'Master', 'BlackStar', 'Legend', 'Topson']
 
 def phrases_test(phrase):
     change = ""
-    for i in len(phrase):
-        print(i)
+    for i in phrase:
+        if i in "aeiou":
+            change = change + "P"
+        else:
+            change = change + i
+    return change
 
 print(phrases_test("This is a test for phrase"))
+
+
+name = input("Enter your name")
+new_letter = ""
+verif = "R"
+
+for i in name:
+    if i not in name:
+        new_letter += i
