@@ -11,4 +11,4 @@ def translate(phrase):
             translation = translation + letter
     return translation
 
-print(translate(raw_input("Enter your Phrase: ")))
+print(translate(input("Enter your Phrase: ")))

@@ -4,7 +4,7 @@
 #for python 3 use just input()
 
 num1 = float(input("Enter your first number: "))
-op = raw_input("Enter your operator: ")
+op = input("Enter your operator: ")
 num2 = float(input("Enter your second number: "))
 
 if op == "+":

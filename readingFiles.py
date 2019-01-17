@@ -1,7 +1,14 @@
-#r, a, w, r+
+#r, a, w, r+ , readable,read,readline
 
-employee_file = open("employees.txt", "r")
+#this works with employees.txt file
 
-print(employee_file.read())
+emfi = open("employees.txt", "r")
+print(emfi.readlines()[2])
+print(emfi.readline())
+emfi.close()
 
-employee_file.close()
+
+emfi = open("employees.txt", "r")
+for im in emfi.readlines():
+    print(im)
+emfi.close()

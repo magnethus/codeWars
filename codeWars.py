@@ -45,3 +45,10 @@ print(friends)
 print(lucky_numbers)
 
 friends = ['Broken', 'Master', 'Master', 'BlackStar', 'Legend', 'Topson']
+
+def phrases_test(phrase):
+    change = ""
+    for i in len(phrase):
+        print(i)
+
+print(phrases_test("This is a test for phrase"))
