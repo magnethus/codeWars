@@ -58,10 +58,35 @@ def phrases_test(phrase):
 print(phrases_test("This is a test for phrase"))
 
 
-name = input("Enter your name")
-new_letter = ""
-verif = "R"
+#name = input("Enter your name: ")
+#new_letter = ""
+#verif = "Rambo"
+#for i in name:
+#    if i not in verif:
+#        new_letter += i
+#        print("A new letter is created", new_letter)
+#print("your name is: " + new_letter)
+#print("")
+#print("Enter to exit")
 
-for i in name:
-    if i not in name:
-        new_letter += i
+Pep = "This is a test"
+print(str(Pep))
+print(Pep)
+
+count = 0
+while count < 2:
+    print("This is a test for a while statement")
+    count +=1
+else:
+    print("Your pass number 2")
+
+l = ["apple", "banana", "pine"]
+for i in l:
+    print(i)
+
+l = ["Rain", "snow", "wind"]
+for i in range(len(l)):
+    print(l[i])
+
+
+

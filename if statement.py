@@ -13,10 +13,15 @@ else:
 
 def max_num(num1, num2, num3):
     if num1 >= num2 and num1 >= num3:
-        return num1
+        print("The number " + str(num1) + " is greather than " + str(num2) + " and " + str(num3) + " numbers")
     elif num2 >= num1 and num2 >= num3:
         return num2
     else:
         return num3
-print(max_num(3, 100, 5))
+print(max_num(33, 3, 5))
 
+def high_and_low(numbers):
+    
+
+c = high_and_low(2)
+print(c)
