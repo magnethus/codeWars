@@ -87,6 +87,6 @@ for i in l:
 l = ["Rain", "snow", "wind"]
 for i in range(len(l)):
     print(l[i])
+---------------------------------EXERCICIEs-----------------
 
-
-
+1. the max and the mix

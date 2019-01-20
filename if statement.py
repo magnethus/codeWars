@@ -21,7 +21,7 @@ def max_num(num1, num2, num3):
 print(max_num(33, 3, 5))
 
 def high_and_low(numbers):
-    
+
 
 c = high_and_low(2)
 print(c)
