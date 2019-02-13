@@ -26,7 +26,7 @@ class Employee:
 
     def __lt__(self, other): # real signature unknown
         """ Return self<value. """
-        return f"{self._name}"
+        return self._name < other._name
 
     # def get_my_key(customobj):
     #     return customobj["name"]

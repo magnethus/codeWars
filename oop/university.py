@@ -19,7 +19,7 @@ luis = Student("Luis", 22, 123553)
 print(f"Luis: {luis}")
 print(luis.present())
 
-people = [juan, luis]
+people = [luis, juan]
 print(f"{people}")
 
 #For wednesday How to use sort in an object and make all the class that represent all the persons in Jalasoft, Selog, cafeteria, etc, etc

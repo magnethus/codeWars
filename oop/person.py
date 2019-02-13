@@ -22,7 +22,10 @@ class Person:
         Unique tring representation of a person
         :return:
         """
-        return f"{self.__ci}"
+        return f"{self._name}"
+
+    def __lt__(self, other):
+        return self._name < other._name
 
     def __str__(self):
         """
