@@ -24,8 +24,12 @@ class Employee:
         """
         return f"{self._name}"
 
-    def get_my_key(customobj):
-        return customobj["name"]
+    def __lt__(self, other): # real signature unknown
+        """ Return self<value. """
+        return f"{self._name}"
+
+    # def get_my_key(customobj):
+    #     return customobj["name"]
 
     def __str__(self):
         """

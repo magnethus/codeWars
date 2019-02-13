@@ -57,7 +57,7 @@ employees = [Irving, Michelle, Magdalena, Ruber, Alex]
 print(f"{employees}")
 
 # For wednesday How to use sort in an object and make all the class that represent all the persons in Jalasoft, Selog, cafeteria, etc, etc
-employees.sort(key=get_my_key)
+employees.sort()
 print(f"{employees}")
 
 
