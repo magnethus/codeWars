@@ -2,17 +2,14 @@
 from abc import ABC, abstractmethod
 
 class DataBase(ABC):
-    def __init__(self, name, age, ci):
-        self.name = name
-        self.age = age
-        self.ci = ci
+    def __init__(self):
         self.version = 1.0
 
     def get_name(self):
         return "Abstract Database"
 
     @abstractmethod
-    def insert(self, person): ...
+    def insert(self): ...
 
     @abstractmethod
     def update(self): ...
@@ -22,5 +19,11 @@ class DataBase(ABC):
 
     @abstractmethod
     def select(self): ...
+
+
+class DatabaseObject(ABC):
+    @abstractmethod
+    def get_table(self): ...
+
 
 #database = DataBase()

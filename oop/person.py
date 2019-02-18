@@ -17,15 +17,34 @@ class Person:
     def present(self):
         return f"Hi My Name is {self._name}"
 
+    def get_name(self):
+        return f"{self._name}"
+
     def __repr__(self):
         """
         Unique tring representation of a person
         :return:
         """
-        return f"{self._name}"
+        return f"ci: {self.__ci}, Name: {self._name}, " \
+               f"age: {self.__age}"
 
-    def __lt__(self, other):
-        return self._name < other._name
+    def __lt__(self, other):  # Less than other
+        return self._name < other._name and self.__ci < other.__ci
+
+    def __gt__(self, other): # Greather than other
+        return self.__ci > other.__ci
+
+    def __le__(self, other): #less or equals than other
+        return self.__ci <= other.__ci
+
+    def __ge__(self, other): #Great or equals than other
+        return self.__ci >= other.__ci
+
+    def __eq__(self, other): # Is equals to other
+        return self.__ci == other.__ci
+
+    def get_ci(self):
+        return self.__ci
 
     def __str__(self):
         """
