@@ -37,7 +37,7 @@ def studen_info(*args, **kwargs):
     print(args)
     print(kwargs)
 
-courses = ('English', 'Literature')
+courses = ['English', 'Literature']
 info = {'name': 'Liam', 'age': 2}
 
 studen_info(*courses, **info)
