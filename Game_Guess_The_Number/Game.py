@@ -10,26 +10,25 @@
 # return WIN
 
 class Game():
-    def __init__(self, guess_number):
+    def __init__(self, guess_number, number_oportunities):
         self.guess_number = guess_number
-        self.oportunities = 0
-        self.number_to_guess = 12
+        self.number_oportunities = number_oportunities
         self.win = 1
         self.lose = 2
         self.higher = 3
         self.lower = 4
+        self.counter = 0
 
-    def play(self):
-        while self.oportunities < 6:
-            self.oportunities += 1
-            if self.guess_number < self.number_to_guess:
-                return self.lower
-            elif self.guess_number > self.number_to_guess:
-                return self.higher
-            elif self.guess_number == self.number_to_guess:
-                return self.win
+
+    def compare_number(self, number_introduced, guess_number ):
+        while self.counter < self.number_oportunities:
+            self.counter += 1
+            if self.number_introduced < self.guess_number:
+                return {self.lower}
+            elif self.number_introduced > self.guess_number:
+                return {self.higher}
+            elif self.number_introduced == self.guess_number:
+                return {self.win}
             else:
-                return self.lose
- f
-game1 = Game(23)
-game1.play()
+                return {self.lose}
+
