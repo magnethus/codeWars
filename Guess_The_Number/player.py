@@ -1,5 +1,5 @@
-from Game_Guess_The_Number.play import Play
-from Game_Guess_The_Number.play import Game
+from Guess_The_Number.play import Play
+from Guess_The_Number.play import Game
 
 class Player(Play):
     def __init__(self, player_name, number introduced):
