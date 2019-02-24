@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5d7215c-c0e3-4b59-a324-5048df119b1d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Guess_The_Number/game_status.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guess_The_Number/guess_game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Guess_The_Number/testplayer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game_Guess_The_Number/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guess_The_Number/Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game_Guess_The_Number/Guess_The_Number.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game_Guess_The_Number/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guess_The_Number/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game_Guess_The_Number/play.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guess_The_Number/play.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game_Guess_The_Number/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guess_The_Number/player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game_Guess_The_Number/testplayer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlLocalRepo" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,20 +61,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Guess_The_Number/game_status.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="102">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Guess_The_Number/guess_game.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -91,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Guess_The_Number/testplayer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="170">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -411,7 +402,7 @@
       <workItem from="1547460835898" duration="31934000" />
       <workItem from="1549226558120" duration="4325000" />
       <workItem from="1549802794933" duration="21742000" />
-      <workItem from="1550430014165" duration="22065000" />
+      <workItem from="1550430014165" duration="22510000" />
     </task>
     <servers />
   </component>
@@ -448,7 +439,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113552000" />
+    <option name="totallyTimeSpent" value="113997000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,7 +455,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5025773" side_tool="true" weight="0.20726173" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4974227" visible="true" weight="0.20726173" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4974227" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="2" sideWeight="0.5025773" side_tool="true" weight="0.20726173" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32890365" />
@@ -474,7 +465,7 @@
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.3764321" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3764321" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.3986711" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -796,6 +787,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Guess_The_Number/Game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guess_The_Number/testplayer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/university_database.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -806,34 +814,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Guess_The_Number/game_status.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Guess_The_Number/Game.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Guess_The_Number/testplayer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Guess_The_Number/guess_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Guess_The_Number/game_status.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
