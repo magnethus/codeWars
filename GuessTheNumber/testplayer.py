@@ -1,6 +1,6 @@
 import unittest
-from Guess_The_Number.game_status import GameStatus
-from Guess_The_Number.guess_game import GuessGame
+from GuessTheNumber.game_status import GameStatus
+from GuessTheNumber.guess_game import GuessGame
 
 class MyTestCase(unittest.TestCase):
 
